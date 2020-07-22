@@ -1,0 +1,35 @@
+body {
+  box-sizing: border-box;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #888888;
+}
+
+nav {
+  display: flex;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+footer {
+  color: #888888;
+}
